@@ -1,0 +1,17 @@
+.appName {
+    font-weight: bold;
+    font-size: 60;
+}
+
+.function {
+    /* font-style: italic; */
+    font-size: 10;
+    color: rgb(255, 100, 51);
+    float: right;
+}
+
+.menu {
+    background: rgb(255, 208, 0);
+    align-content: center;
+    align-items: center;
+}
