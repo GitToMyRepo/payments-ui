@@ -1,11 +1,11 @@
 .appName {
     font-weight: bold;
-    font-size: 60;
+    font-size: 40px;
 }
 
 .function {
     /* font-style: italic; */
-    font-size: 10;
+    font-size: 20px;
     color: rgb(255, 100, 51);
     float: right;
 }
@@ -14,4 +14,10 @@
     background: rgb(255, 208, 0);
     align-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.menu, table.menu td {
+    border: none;
 }
