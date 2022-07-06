@@ -78,7 +78,7 @@ const SearchResult = () => {
                 <option selected disabled>Select a country</option>
                 {populateCountries}
             </select>
-            {payments.length < 2000 && <p>"Please wait..."</p>}
+            {payments.length === 0 && <p>"Please wait..."</p>}
             <table className="searchResults"  >
                 <thead>
                     <tr>

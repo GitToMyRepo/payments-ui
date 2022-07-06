@@ -2,14 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import AppTitle from './components/AppTitle';
 import SearchOrder from './components/SearchOrder';
-import SearchResult from './components/SearchResult';
+import FindATransaction from './components/FindATransaction';
 
 function App() {
   return (
     <div className="App">
       <AppTitle appName='Payments Application' find='Find a transaction' create='New transaction'/>
       <SearchOrder/>
-      <SearchResult/>
+      <FindATransaction/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
